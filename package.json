@@ -1,0 +1,15 @@
+{
+  "name": "rotki-test-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tewshi/rotki-test-api.git",
+  "author": "Joseph Ojoko <entewshi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
